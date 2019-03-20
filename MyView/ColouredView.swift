@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ColouredView : UIView
+public class ColouredView : UIView
 {
     //MARK: - Declaration
     fileprivate let colors: [UIColor] = [.red, .orange, .yellow, .green, .blue, .purple]
@@ -16,7 +16,7 @@ class ColouredView : UIView
     //MARK: -
     
     //MARK: - View Events
-    override init(frame: CGRect)
+    public override init(frame: CGRect)
     {
         super.init(frame: frame)
         
