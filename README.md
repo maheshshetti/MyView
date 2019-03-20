@@ -1,0 +1,2 @@
+# MyView
+My Coloured View
